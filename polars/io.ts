@@ -279,7 +279,7 @@ export function scanCSV(path, options?) {
  * @example
  * ```
  * const jsonString = `
- * {"a", 1, "b", "foo", "c": 3}
+ * {"a": 1, "b": "foo", "c": 3}
  * {"a": 2, "b": "bar", "c": 6}
  * `
  * > const df = pl.readJSON(jsonString)
